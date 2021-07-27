@@ -5,100 +5,162 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./img/Logo.png" style="border-radius: 1mm;">
+
     <title>Dwaipayan Saha</title>
+
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://use.typekit.net/gkx8zdh.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
         integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
     <!-- typed.min.js file from typed.js folder -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Add jquery cdn -->
     <script src="./typed.js-master/lib/typed.min.js"></script>
+
+
+
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap4c-custom-switch-master/dist/css/component-custom-switch.css" rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+
+    
 </head>
 
 <body>
-    <nav class="navbar" id="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-            <div class="navbar-item">
+    <nav class="navbar" id="#" style="border-radius: 0px; padding-top: 12px; padding-bottom: 12px;">
+
+        <div class="float-left" style="margin-left: 15px;">
+            <div class="navbar-logo">
                 <img src="img/Logo.png" width="30" height="30" class="profile-pic">&nbsp;&nbsp;
                 Dwaipayan Saha
             </div>
         </div>
-
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavigation" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         
+        <div class="float-right" style="margin-right: 15px;">
             <div class="navbar-item">
-                
-                    <button class="button nav-button" href="#me" id="intro-btn">Intro</button>
-                    <button class="button nav-button" href="#work" id="work-btn">Work Experience</button>
-                    <button class="button nav-button" href="#proj" id="education-btn">Projects</button>
-                    <button class="button nav-button" href="#contact" id="contact-btn">Classes</button>
-                
+                <a class="nav-button" href="#me" id="intro-btn" style="text-decoration: none">About Me</a>
+                <a class="nav-button" href="#work" id="work-btn" style="text-decoration: none">Work Experience</a>
+                <a class="nav-button" href="#proj" id="education-btn" style="text-decoration: none">Projects</a>
+                <a class="nav-button" href="#classes" id="contact-btn" style="text-decoration: none">Classes</a>
             </div>
+        </div>
        
     </nav>
 
 
-    <section id="home" class="main-page" style="background-color: white;">
-        <div class="container h-100 w-100">
-            <div class="flex flex-row">
-                <div>
-                    <img class="main-image" width="420" height="560" src="img/profilelake.png" alt="Dwaipayan">
-                </div>
-                <div class="flex flex-col">
-                    <span class="element"></span>
-                    
-                    <script>
-                        var typed = new Typed('.element', {
-                            strings: ["Hi, I'm Dwaipayan!", "Nice to meet you :)"],
-                            typeSpeed: 80,
-                            backSpeed: 80
-                        });
-                    </script>
-                    
-                    <hr>
-                    <div class = "contact-icons">
-                        <a class="fab fa-facebook intro-icon" href="https://www.facebook.com/dwaipayan.saha.96"></a>
-                        <a class="fab fa-linkedin intro-icon"
-                            href="https://www.linkedin.com/in/dwaipayan-saha-111883182/"></a>
-                        <a class="fab fa-github-square intro-icon" href="https://github.com/dsaha04"></a>
-                        <a class="align-top intro-email" href="mailto:dsaha@princeton.edu">dsaha@princeton.edu</a>
-                    </div>
-                </div>
+    <section class="main-page" id="home" style="background-color: white;">
+        <center>
+            <div>
+                <img class="main-image" width="363" height="484" src="img/profilelake.png" alt="Dwaipayan">
+            </div>
+
+            <span class="element"></span>
+            <script>
+                var typed = new Typed('.element', {
+                    strings: ["Hi, I'm Dwaipayan!", "Nice to meet you :)"],
+                    typeSpeed: 80,
+                    backSpeed: 80
+                });
+            </script>
+
+            <hr style="background-color: black;">
+
+            <a class="fas fa-envelope intro-icon" href="mailto:dsaha@princeton.edu"></a>
+            <a class="fab fa-linkedin intro-icon" href="https://www.linkedin.com/in/dwaipayan-saha-111883182/"></a>
+            <a class="fab fa-github-square intro-icon" href="https://github.com/dsaha04"></a>
+            <a class="fab fa-facebook intro-icon" href="https://www.facebook.com/dwaipayan.saha.96"></a>
+
+
+        </center>
+    </section>
+    
+    <section class="about-page" id="me" style="background-color: #d3d3d3; padding-top: 220px; padding-right: 200px; padding-bottom: 220px;">
+       
+        <div class="row align-items-center justify-content-between">
+            <div class="col-lg-7 home-about-left" style="padding-left: 270px; padding-bottom: 40px;">
+                <img class="img" src="img/Princeton.png" alt="">
+            </div>
+            <div class="col-lg-5 home-about-right" style="padding-right: 500 px;">
+                <h3 style="font-size: 30px; font-family: 'Ubuntu', sans-serif;">ABOUT ME</h6>
+                    <p style="font-size: 15px; font-family: 'Ubuntu', sans-serif;">
+                        Hi! I'm Dwaipayan Saha, a sophomore at Princeton University majoring in Computer
+                        Science
+                        with
+                        certificates in <em>Applied and Computational Mathematics</em>, <em>Statistics &
+                            Machine
+                            Learning</em>, <em>Engineering and Management Systems</em>, and <em>Creative
+                            Writing</em>.
+                        I'm currently a member of the Princeton Club Tennis team, The Daily Princetonian,
+                        Business
+                        Today, Math Club, and Envision.
+                        <br /><br />
+                        In my free time, I love to play tennis, paint, read, write short stories, and work
+                        out!
+                        <br /><br />
+                        I enjoy higher level mathematics, especially probability theory. 
+                        <br /><br />
+                        Recently, I've been working on a few passion
+                        projects of my own including a NLP Sentiment Analysis tool, Computer Vision based
+                        Ping Pong
+                        Referee, Pattern Detection within
+                        Insider Trades, and creating a Random Chat App for students at Princeton and
+                        Carnegie
+                        Melon
+                        University.
+
+                    </p>
             </div>
         </div>
     </section>
 
-    <section>
-        Intro
-        <!-- TypeWriter -->
-        <!-- Use OpenCV cartoonifier of a picture of me as background -->
+    <section id="work" class="section-work"  style="background-color: white; padding-top: 150px;padding-bottom: 200px;">
+        <div class="container">
+            <h2>Work Experience/Timeline&nbsp;&nbsp;<i class="projects" style="font-size: 30px; font-family: 'Ubuntu', sans-serif;"></i></h2>
+            <div class="sub-work">
+                - Fanclub
+                - Princeton Research Assistant
+                - Michigan Research Assistant
+                - The Daily Princetonian
+            </div>
+        </div>
     </section>
-
-    <section>
-        Work Experience/Timeline
-        - Fanclub
-        - Princeton Research Assistant
-        - Michigan Research Assistant
-        - The Daily Princetonian
-    </section>
-
-    <section>
-        Projects
-        - Computer Vision Ping Pong
+    
+    <section id="proj" class="section-projects"  style="background-color: #d3d3d3; padding-top: 150px;padding-bottom: 200px;">
+        <center>
+        <div class="container">
+            <h2>Programming Projects&nbsp;&nbsp;<i class="projects" style="font-size: 30px; font-family: 'Ubuntu', sans-serif;"></i></h2>
+            <div class="sub-project">
+                <p style="font-size: 20px; font-family: 'Ubuntu', sans-serif;">
+                    My projects are displayed below alongside some additonal information, feel free to contact me for more information! &nbsp;
+                    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+                </p> 
+                - Computer Vision Ping Pong
         - Insider Trading Model
         - NLP Sentiment Analysis
         - Personal Website (Background Image created via Computer Vision)
         - P & L Backtester
+            </div>
+        </div>
+      
+    </center>
     </section>
 
-    <section>
-        Classes
-    </section>
+
+
 
 </body>
 
@@ -107,3 +169,75 @@
 </footer>
 
 </html>
+
+
+
+<!-- <div class="container-fluid indent" >
+            <div class="row">
+                <div class="col-sm">
+                    <div class="">
+                        <h2>About Me</h2>
+                        <p style="font-size: 15px; font-family: 'Ubuntu', sans-serif;">
+                            Hi! I'm Dwaipayan Saha, a sophomore at Princeton University majoring in Computer
+                                Science
+                                with
+                                certificates in <em>Applied and Computational Mathematics</em>, <em>Statistics &
+                                    Machine
+                                    Learning</em>, <em>Engineering and Management Systems</em>, and <em>Creative
+                                    Writing</em>.
+                                I'm currently a member of the Princeton Club Tennis team, The Daily Princetonian,
+                                Business
+                                Today, Math Club, and Envision.
+                                <br /><br />
+                                In my free time, I love to play tennis, paint, read, write short stories, and work
+                                out!
+                                <br /><br />
+                                I enjoy higher level mathematics, especially probability theory. Recently, I've been
+                                working
+                                on a few passion
+                                projects of my own including a NLP Sentiment Analysis tool, Computer Vision based
+                                Ping
+                                Pong
+                                Referee, Pattern Detection within
+                                Insider Trades, and creating a Random Chat App for students at Princeton and
+                                Carnegie
+                                Melon
+                                University.
+                            
+                        </p>
+                    </div>
+                    <div>
+                        <h2>Skills</h2>
+                            <h5>
+                                <span><i class="devicon-java-plain colored"></i> JAVA</i>
+                                </span> ·
+                                <span><i class="devicon-python-plain colored"></i> Python</span> ·
+                                <span><i class="devicon-c-plain colored"></i> C</span> ·
+                                <span><i class="devicon-html5-plain colored"></i> HTML</span> ·
+                                <span><i class="devicon-css3-plain colored"></i> CSS</span> ·
+                                <span><i class="devicon-javascript-plain colored"></i> JavaScript</span>
+                            </h5>
+                            <h5>
+                                <span><i class="devicon-react-original colored"></i> React</span> ·
+                                <span><i class="devicon-mysql-plain colored"></i></i>MySQL</span> ·
+                                <span><i class="devicon-flask-original colored"></i> Flask</span>
+                            </h5>
+                            <br/>
+                            <br />
+    
+                    </div>
+                    
+                </div>
+                <div class="col-sm" >
+                    <div class="jumbotron">
+                        <h1 class="display-4">Education</h1>
+                        <p class="lead">Princeton University - B.S.E. in Computer Science</p>
+                        <hr class="my-4">
+                        <p><b>GPA:</b> 3.93 / 4.00</p>
+                        <p><b>Certificates:</b> Applied Math, Statistics & Machine Learning</p>
+                        <p><b>Relevant Coursework:</b> Algorithms & Data Structures, Discrete Math, Multivariable Calculus, Linear Algebra, Probability and Stochastic Systems. </p>
+                        <hr class="my-4">
+                    </div>
+                </div>
+            </div>
+        </div> -->
