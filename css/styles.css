@@ -15,6 +15,7 @@ html, body {
     background: #ffffff;
 }
 
+
 *,
 *::before,
 *::after {
@@ -45,6 +46,22 @@ html, body {
   .intro-icon.active {
     color: #E3BE9B;
   }
+
+  .intro-icon1 {
+    color: #000000;
+    font-size: 1.7rem;
+    padding-right: 15px;
+    padding-top: 5px;
+    transition: all .3s ease-in-out;
+  }
+  
+  .intro-icon1:hover,
+  .intro-icon1:focus,
+  .intro-icon1:active,
+  .intro-icon1.active {
+    color: #E3BE9B;
+  }
+
   
   .intro-email {
     color: #000000;
@@ -230,6 +247,11 @@ html, body {
 .back-to-top i.active {
     color: white;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+
+
 
 /* ----------------------------------------------- */
 /* FOOTER */
