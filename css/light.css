@@ -3959,7 +3959,7 @@ mark {
 }
 
 .back-to-top i:hover, .back-to-top i:focus, .back-to-top i:active, .back-to-top i.active {
-    color: white;
+    color: #E3BE9B;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
