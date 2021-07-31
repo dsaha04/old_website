@@ -14,7 +14,10 @@ html, body {
 
 *, *::before, *::after {
     box-sizing: border-box;
+
 }
+
+
 
 /* ----------------------------------------------- */
 
@@ -46,9 +49,9 @@ html, body {
 }
 
 .intro-email {
-    color: #000000;
-    font-size: 2rem;
-    padding-right: 15px;
+    color: white;
+    font-size: 15px;
+    padding-right: 0px;
     transition: all .3s ease-in-out;
 }
 
@@ -3928,9 +3931,16 @@ mark {
 
 /* ----------------------------------------------- */
 
-/* EDUCATION */
+/* CLASSES */
 
 /* ----------------------------------------------- */
+/* Classes Section
+--------------------------------*/
+
+  
+
+
+
 
 /* ----------------------------------------------- */
 
@@ -3959,7 +3969,7 @@ mark {
 }
 
 .back-to-top i:hover, .back-to-top i:focus, .back-to-top i:active, .back-to-top i.active {
-    color: #E3BE9B;
+    color: black;
 }
 
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
