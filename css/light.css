@@ -17,7 +17,27 @@ html, body {
 
 }
 
+.about-section-container {
+    background-color: #d3d3d3;
+    padding: 200px 0;
+}
 
+.about-section {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .about-section {
+        flex-wrap: wrap;
+    }
+}
+
+.center-hv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* ----------------------------------------------- */
 
